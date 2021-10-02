@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  pointer-events: none;
+}
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+html,
+body {
+  width: 600px;
+  height: 400px;
+}
+div.app {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+div.appIMG > h1 {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+div.appIMG > h2,
+h3 {
+  color: white;
+}
+.city {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+.update-date {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}
+.local-date {
+  position: absolute;
+  top: 80%;
+  right: 10%;
+}
+.wind-speed {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+.welcome {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 30px;
+}
+.search {
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  outline-width: 0px;
+}
